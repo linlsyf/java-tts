@@ -279,7 +279,7 @@ public class MusicTest extends HttpServlet {
 //		    String ROOT = "E:\\java\\apache-tomcat-7.0.77";
 		String ROOT = "D:";
 
-		String sentences = "阿法第三方";
+		String sentences = "最近好吗";
 //			int num = RandomNum();
 			Calendar now = Calendar.getInstance();
 			String rootDir = ROOT+"/tts/";
@@ -340,8 +340,6 @@ public class MusicTest extends HttpServlet {
 				//TODO::否则只有一个,直接返回语音路径
 				localhost_dir = dir+listArr.get(0);
 			}
-
-
 
 		System.out.println(localhost_dir);
 
